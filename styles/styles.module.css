@@ -1,0 +1,94 @@
+/* styles.module.css */
+
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh; /* 100% of the viewport height */
+    margin: 0;
+}
+
+.page-title {
+    font-size: 2em; /* Adjust the font size as needed */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.searchBar {
+    position: relative;
+    width: 50vw;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.searchInput {
+    padding-right: 50px;
+}
+
+.searchIcons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust the spacing as needed */
+    z-index: 1000; /* Ensure icons appear on top */
+}
+
+.iconContainer {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px; /* Adjust the padding as needed */
+}
+
+.iconContainer i {
+    margin: 0 5px;
+    color: #00008b;
+}
+
+.custom-navbar .navbar-toggler {
+    display: none; /* Hide the toggle button */
+}
+
+@media (max-width: 991px) {
+    /* Adjust navbar for smaller screens */
+    .custom-navbar .navbar-nav {
+        flex-direction: column; /* Stack tabs vertically */
+    }
+
+    .custom-navbar .nav-link {
+        text-align: center; /* Optionally center text for stacked layout */
+    }
+
+    /* Adjust search bar width */
+    .searchBar {
+        width: 80vw;
+        max-width: none;
+    }
+}
+
+.custom-navbar .nav-link {
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+.custom-navbar .nav-link.active {
+    color: #00008b;
+    text-decoration: underline;
+}
+
+.nav-item {
+    flex-grow: 1;
+}
+
+.underline {
+    border-bottom: 2px solid #00008b;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+}
