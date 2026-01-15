@@ -1,4 +1,4 @@
-# 📈 Stock Search & Portfolio Web Application
+# 📈 Stock Search & Portfolio Web Application (Video Demo at the end)
 
 A full-stack stock search and portfolio management web application that allows users to explore real-time market data, analyze historical trends, track financial news, manage watchlists, and simulate stock trading using a wallet-based system.
 
