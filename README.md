@@ -130,7 +130,7 @@ Performance optimizations for large datasets
 
 🎥 Project Demo Video
 
-🔗 Demo Video Link: 
+🔗 Demo Video Link: https://drive.google.com/drive/folders/1DIYRoUoIQKD9VoX_wL7bzrtULXEwppPe?dmr=1&ec=wgc-drive-hero-goto
 
 > **Note:** The original live deployment link is no longer active because the project relied on a cloud-hosted MongoDB Atlas backend and time-limited cloud resources.  
 > The full source code, system design, and functionality are preserved in this repository.
